@@ -1,0 +1,97 @@
+*{
+    background:#dddfe6 ;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 1.4rem;
+    line-height: 200%;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 3%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.text-area {
+    height: 375px;
+    border: none;
+    width: 90%;
+    max-width: 600px;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 10px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+   .text-area:focus {
+    outline: none;
+   }
+
+   .mensaje{
+    background: white;
+    background-image: url("/imagenes/giphy.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: absolute;
+   }
+   .mensaje:focus {
+        outline: none;
+   }
+
+   .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+   .btn-Desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 30px;
+    width: 328px;
+   }
+
+   .btn-Encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 328px;
+   }
+   
+   .btn-copiar {
+    border: 1px sold #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 108px;
+    margin-top: 558px;
+    position: absolute;
+    width: 328px;
+   }
+
+   .information {
+    color: #495057;
+    font-size: 18px;
+   }
+
+ 
