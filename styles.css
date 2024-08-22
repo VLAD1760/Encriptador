@@ -34,7 +34,7 @@ main{
 
    .mensaje{
     background: white;
-    background-image: url("/imagenes/giphy.webp");
+    background-image: URL("./imagenes/giphy.webp");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
